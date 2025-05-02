@@ -15,8 +15,8 @@ def get_base64_image(image_path):
         return base64.b64encode(img_file.read()).decode()
 
 # Convert images to base64
-img1 = get_base64_image("C:/Users/Windows 11/Desktop/Eng A/Project pharma/Project/1.jpg")
-img2 = get_base64_image("C:/Users/Windows 11/Desktop/Eng A/Project pharma/Project/2.jpg")
+img1 = get_base64_image("1.jpg")
+img2 = get_base64_image("2.jpg")
 
 # Display logos centered
 st.markdown(
